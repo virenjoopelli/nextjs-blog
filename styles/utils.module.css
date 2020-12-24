@@ -5,6 +5,7 @@
   letter-spacing: -0.05rem;
   margin: 1rem 0;
   white-space: nowrap;
+  overflow: hidden;
 }
 
 .headingXl {
