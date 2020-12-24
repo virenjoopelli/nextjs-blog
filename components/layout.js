@@ -16,8 +16,7 @@ export default function Layout({ children, home }) {
           content="Learn how to build a personal website using Next.js"
         />
         <meta
-          property="og:image"
-          content={`https://og-image.now.sh/${encodeURI(
+          property="og:image"g
             siteTitle
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
         />
@@ -27,14 +26,14 @@ export default function Layout({ children, home }) {
       
       <header className={styles.header}>
         {home ? (
-          <>
-            <img
-              src="/images/profile.jpg"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
+         // <>
+         //    <img
+         //      src="/images/profile.jpg"
+         //      className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+         //      alt={name}
+         //    />
+             <h1 clasorigingitsName={utilStyles.heading2Xl}>{name}</h1>
+         //  </>
         ) : (
           <>
             <Link href="/">

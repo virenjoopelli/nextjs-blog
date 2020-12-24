@@ -16,7 +16,7 @@ export async function getStaticProps(){
 
 export default function Home({allPostsData}) {
   return (
-   <Layout home>
+  	 <Layout home>	
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -45,7 +45,7 @@ export default function Home({allPostsData}) {
           ))}
         </ul>
       </section>
-
 	</Layout>
+
   )
 }
