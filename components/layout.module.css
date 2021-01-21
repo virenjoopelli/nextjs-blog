@@ -1,5 +1,5 @@
 .container{
-	max-width: 36rem;
+	max-width: 40rem;
 	padding: 0 1rem;
 	margin: 3rem auto 6rem;
 }
@@ -20,4 +20,14 @@
 
 .backToHome {
 	margin: 3rem 0 0;
+}
+
+.nav{
+	float: right;
+	text-align: right;
+	color: orange;
+}
+.navItem {
+	padding: 1rem;
+	color: #000000;
 }

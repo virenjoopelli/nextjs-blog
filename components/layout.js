@@ -24,8 +24,18 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      
-      <header className={styles.header}>
+
+      <nav className = "navbar navbar-default">
+      <div class="container-fluid">
+        <span className={styles.nav}>
+          <span className ={styles.navItem} ><a href="#">Home</a></span>
+          <span className ={styles.navItem}><a href="/writing">Writing</a></span>
+          <span className ={styles.navItem}><a href="/writing">Bookshelf</a></span>
+        </span>
+      </div>
+      </nav>
+      	<text></text>
+        <header className={styles.header}>
         {home ? (
          // <>
          //    <img
@@ -54,7 +64,7 @@ export default function Layout({ children, home }) {
           //</>
         )}
       </header>
-      <main>{children}</main>
+      <main>{children}</main> 
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
