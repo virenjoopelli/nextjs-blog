@@ -26,7 +26,7 @@ export default function Layout({ children, home }) {
       </Head>
 
       <nav className = "navbar navbar-default">
-      <div class="container-fluid">
+      <div className="container-fluid">
         <span className={styles.nav}>
           <span className ={styles.navItem} ><a href="#">Home</a></span>
           <span className ={styles.navItem}><a href="/writing">Writing</a></span>
