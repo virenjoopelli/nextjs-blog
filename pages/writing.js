@@ -17,12 +17,13 @@ export async function getStaticProps(){
 
 export default function Home({allPostsData}) {
   return (
+  	<Layout>
   	 <div className={styles.container}>
       <Head>
-        <title>{siteTitle}</title>
+        // <title>{siteTitle}</title>
       </Head>
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding0px}`}>
         <h2 className={utilStyles.headingLg}>Writing</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
@@ -39,6 +40,7 @@ export default function Home({allPostsData}) {
         </ul>
       </section>
 	</div>
+	</Layout>
 
   )
 }

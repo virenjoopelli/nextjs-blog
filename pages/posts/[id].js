@@ -8,7 +8,9 @@ import Link from 'next/link'
 
 
 export default function Post({postData}) {
-  return (<div className={styles.container}>
+  return (
+    <Layout>
+    <div className={styles.container}>
   	<Head>
 		<title>{postData.title}</title>
 	</Head>
@@ -25,6 +27,7 @@ export default function Post({postData}) {
           </Link>
         </div>
   </div>
+  </Layout>
   )
 }
 
