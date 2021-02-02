@@ -24,3 +24,11 @@ img{
 	max-width: 130%;
 	display: block;
 }
+
+h3 {
+	line-height: 1em;
+}
+
+p {
+	line-height: 1.5em;
+}

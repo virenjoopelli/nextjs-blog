@@ -24,16 +24,6 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-
-      <nav className = "navbar navbar-default">
-      <div className="container-fluid">
-        <span className={styles.nav}>
-          <span className ={styles.navItem} ><a href="/">Home</a></span>
-          <span className ={styles.navItem}><a href="/writing">Writing</a></span>
-          <span className ={styles.navItem}><a href="/writing">Bookshelf</a></span>
-        </span>
-      </div>
-      </nav>
       	<text></text>
         <header className={styles.header}>
         {home ? (

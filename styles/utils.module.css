@@ -1,11 +1,13 @@
 .heading2Xl {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.2;
   font-weight: 600;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
   white-space: nowrap;
 }
+
+
 
 .headingXl {
   font-size: 2rem;
@@ -24,7 +26,7 @@
 }
 
 .headingMd {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   line-height: 1.5;
   margin-top: 0;
   padding-top: 0;
@@ -40,6 +42,10 @@
 
 .padding1px {
   padding-top: 1px;
+}
+
+.lastUpdated {
+  font-size: 12px;
 }
 
 .list {

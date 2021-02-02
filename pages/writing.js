@@ -20,7 +20,7 @@ export default function Home({allPostsData}) {
   	<Layout>
   	 <div className={styles.container}>
       <Head>
-        // <title>{siteTitle}</title>
+        <title>{siteTitle}</title>
       </Head>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding0px}`}>
